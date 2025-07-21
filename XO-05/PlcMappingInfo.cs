@@ -49,8 +49,21 @@ namespace XO_05
                 isBitType = true;
             }
         }
-        
 
+        public string UniqueKey
+        {
+            get
+            {
+                // 對於 Bit 設備，Key 應該包含位址和 Bit 索引，以確保唯一性
+                // 例如 M100.0 和 M100.4 是不同的對應
+                if (this.isBitType)
+                {
+                    return string.Format("{0}_{1}_{2}", this.DeviceType.ToUpper(), this.address, this.BitIndex);
+                }
+                // Word 設備的 Key
+                return string.Format("{0}_{1}", this.DeviceType.ToUpper(), this.address);
+            }
+        }
 
     }
 }

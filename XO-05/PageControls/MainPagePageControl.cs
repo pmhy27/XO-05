@@ -11,10 +11,12 @@ namespace XO_05.PageControls
 {
     public partial class MainPagePageControl : UserControl,IpageLifecycle
     {
-        private List<PlcMappingInfo> _dataMappingTable;
-        //private List<PlcReadBlock> _plcReadBlock;
+        private List<PlcMappingInfo> _unitsTable;
+        private List<PlcReadBlock> _plcReadBlock;
         PageTools pageTools = new PageTools();
+        short[] _resultsFromPlc;
         Dictionary<string, byte[]> _resultsMappingTable;
+  
 
 
         public MainPagePageControl()
@@ -27,13 +29,13 @@ namespace XO_05.PageControls
 
         public void InitilizeLampDataMappings()
         {
-            _dataMappingTable = new List<PlcMappingInfo>();
-            _dataMappingTable.Add(new PlcMappingInfo { UIControl = lampButton_Inline, DeviceType = "L", address = 1200 });
-            _dataMappingTable.Add(new PlcMappingInfo { UIControl = lampButton_Offline, DeviceType = "L", address = 1201 });
-            _dataMappingTable.Add(new PlcMappingInfo { UIControl = lampButton_HeaterOn, DeviceType = "L", address = 1202 });
-            _dataMappingTable.Add(new PlcMappingInfo { UIControl = lampButton_HeaterOff, DeviceType = "L", address = 1203 });
-            _dataMappingTable.Add(new PlcMappingInfo { UIControl = lampButton_CycleStopOn, DeviceType = "L", address = 1204 });
-            _dataMappingTable.Add(new PlcMappingInfo { UIControl = lampButton_CycleStopOff, DeviceType = "L", address = 1205 });         
+            _unitsTable = new List<PlcMappingInfo>();
+            _unitsTable.Add(new PlcMappingInfo { UIControl = lampButton_Inline, DeviceType = "L", address = 1200 });
+            _unitsTable.Add(new PlcMappingInfo { UIControl = lampButton_Offline, DeviceType = "L", address = 1201 });
+            _unitsTable.Add(new PlcMappingInfo { UIControl = lampButton_HeaterOn, DeviceType = "L", address = 1202 });
+            _unitsTable.Add(new PlcMappingInfo { UIControl = lampButton_HeaterOff, DeviceType = "L", address = 1203 });
+            _unitsTable.Add(new PlcMappingInfo { UIControl = lampButton_CycleStopOn, DeviceType = "L", address = 1204 });
+            _unitsTable.Add(new PlcMappingInfo { UIControl = lampButton_CycleStopOff, DeviceType = "L", address = 1205 });         
         }
 
 
@@ -48,16 +50,24 @@ namespace XO_05.PageControls
         }
 
 
-        public List<PlcReadBlock> GetPlcReadRequests(out Dictionary<string, byte[]> resultsMappingTable)
+        public List<PlcReadBlock> GetPlcReadRequests(List<PlcMappingInfo> _unitsTable )
         {
 
-            return pageTools.CreateReadBlocks(_dataMappingTable, out resultsMappingTable);
+            return pageTools.CreateReadBlocks(_unitsTable);
  
         }
 
-        void UpdateUi(Dictionary<string, short[]> plcdata)
+        public Dictionary<string, short> GetPlcDataMapppingTable(List<PlcMappingInfo> _unitsTable, short[] _resultsFromPlc)
         {
-            ;
+
+            return pageTools.CreateResultsMappingTablle(_unitsTable);
+ 
+        }
+
+
+        public void UpdateUi(Dictionary<string, short[]> plcdata)
+        {
+            
         }
     }
 

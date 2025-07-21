@@ -10,8 +10,11 @@ namespace XO_05
         void OnPageVisible();
         void OnPageHidden();
 
-        List<PlcReadBlock> GetPlcReadRequests(out Dictionary<string, byte[]> resultsTable);
+        List<PlcReadBlock> GetPlcReadRequests(List<PlcMappingInfo> unitsTable);
+        Dictionary<string, short> GetPlcDataMapppingTable(List<PlcReadBlock> unitsTable, short[] resultsFromPlc);
 
-        void UpdateUi(Dictionary<string, short[]> plcdata);
+
+
+        void UpdateUi(Dictionary<string, short> plcdata);
     }
 }
