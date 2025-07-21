@@ -1,0 +1,16 @@
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\bin\Release\XO-05.exe
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\bin\Release\XO-05.pdb
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\bin\Release\CustomizedControls.dll
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\bin\Release\CustomizedControls.pdb
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO-05.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.Main.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.PageControls.MainPagePageControl.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO_05.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO-05.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO-05.exe
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\XO-05\obj\x86\Release\XO-05.pdb

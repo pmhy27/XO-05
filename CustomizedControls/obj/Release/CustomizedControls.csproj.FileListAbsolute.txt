@@ -1,0 +1,8 @@
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\bin\Release\CustomizedControls.dll
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\bin\Release\CustomizedControls.pdb
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\obj\Release\CustomizedControls.LampButton1.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\obj\Release\CustomizedControls.SquareLamp1.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\obj\Release\CustomizedControls.ValueBox1.resources
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\obj\Release\CustomizedControls.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\obj\Release\CustomizedControls.dll
+C:\Users\User\documents\visual studio 2010\Projects\XO-05\CustomizedControls\obj\Release\CustomizedControls.pdb
