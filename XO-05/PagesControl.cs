@@ -9,9 +9,6 @@ namespace XO_05
 {
     class PageList 
     {
-        private static readonly PageList _instance = new PageList();
-        public static PageList Instance { get { return _instance; } }
-
 
         // 集中管理所有頁面 UserControl 的實例
         public Dictionary<string, UserControl> Pages = new Dictionary<string, UserControl>();
@@ -26,7 +23,7 @@ namespace XO_05
         SystemRecipeSettingPageControl systemRecipeSettingPage = new SystemRecipeSettingPageControl();
         SettingPageControl settingPage = new SettingPageControl();
 
-        private PageList()
+        public PageList()
         {
 
             // 將頁面添加到字典中，用一個唯一鍵來識別
@@ -37,15 +34,6 @@ namespace XO_05
             Pages.Add("SystemRecipeSettingPage", systemRecipeSettingPage);
             Pages.Add("SettingPage", settingPage);
 
-        }
-
-        public T GetPage<T>(string pageKey) where T : UserControl
-        {
-            if (Pages.ContainsKey(pageKey))
-            {
-                return Pages[pageKey] as T;
-            }
-            return null;
         }
 
 

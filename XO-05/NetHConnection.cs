@@ -25,7 +25,7 @@ namespace XO_05
 
         // ----- 定義一個公開的事件 -----
         // 讓外部可以訂閱這個事件，來接收連線狀態的變更通知
-        //public event EventHandler<ConnectionStatusEventArgs> ConnectionStatusChanged;
+        public event EventHandler<ConnectionStatusEventArgs> ConnectionStatusChanged;
 
 
         public int _connectingPath = 0;

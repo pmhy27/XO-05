@@ -9,16 +9,27 @@ namespace XO_05
     /// <summary>
     /// HMI元件與plc位置間對應關係設定
     /// </summary>
-    class PlcMappingInfo
+    public class PlcMappingInfo
     {
 
-        public bool isBitType = false;
+        public static bool isBitType(string deviceType)
+        {
+            
+            {
+                // 使用 StringComparison.OrdinalIgnoreCase 確保比較时不區分大小寫
+                return string.Equals(deviceType, "X", System.StringComparison.OrdinalIgnoreCase) ||
+                       string.Equals(deviceType, "Y", System.StringComparison.OrdinalIgnoreCase) ||
+                       string.Equals(deviceType, "M", System.StringComparison.OrdinalIgnoreCase) ||
+                       string.Equals(deviceType, "L", System.StringComparison.OrdinalIgnoreCase) ||
+                       string.Equals(deviceType, "B", System.StringComparison.OrdinalIgnoreCase);
+            }
+        }
+
+
 
 
         public PlcMappingInfo()
         {
-            CalculateBitIndex();
-            DefinebitOrWord();
         }
 
 
@@ -29,41 +40,16 @@ namespace XO_05
 
 
 
-        public int address { get; set; }
-
-        //bit位於16個bit中的第幾位
-        public int BitIndex { get; set; }
+        public int Address { get; set; }
 
 
+        public int IndexInResultsArray { get; set; }
+        public int BitIndexInIndexInResultsArray { get; set; }
 
-        //算出bit位於16個bit中的第幾位
-        private void CalculateBitIndex()
-        {
-            BitIndex = address % 16;
-        }
 
-        private void DefinebitOrWord()
-        {
-            if (DeviceType == "X" || DeviceType == "Y" || DeviceType == "M" || DeviceType == "L" || DeviceType == "B")
-            {
-                isBitType = true;
-            }
-        }
 
-        public string UniqueKey
-        {
-            get
-            {
-                // 對於 Bit 設備，Key 應該包含位址和 Bit 索引，以確保唯一性
-                // 例如 M100.0 和 M100.4 是不同的對應
-                if (this.isBitType)
-                {
-                    return string.Format("{0}_{1}_{2}", this.DeviceType.ToUpper(), this.address, this.BitIndex);
-                }
-                // Word 設備的 Key
-                return string.Format("{0}_{1}", this.DeviceType.ToUpper(), this.address);
-            }
-        }
+
+
 
     }
 }

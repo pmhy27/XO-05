@@ -18,10 +18,15 @@ namespace XO_05
     {
 
 
-        private readonly PageList _pageManager = PageList.Instance;
-        //以下兩個基本上是同一個東西，分開只是為了架構上分開意圖和不需頻繁轉型
-        private IpageLifecycle _currentPageLifecycle = null; //紀錄實現了介面的當前頁面
+        private readonly PageList _pageManager = new PageList();
+        //下面兩個基本上是同一個東西，分開只是為了架構上分開意圖和不需頻繁轉型
+        private IpageLifecycle _currentPage = null; //紀錄實現了介面的當前頁面
         private UserControl _currentPageControl = null; //紀錄當前的User Control
+        private List<PlcReadBlock> _plcReadRequestsTable;
+        private PageTools pageTools = new PageTools();
+        private PlcDataReader_NetH _plcDataReader_NetH = new PlcDataReader_NetH();
+        private short[] RowDataArrayFromPlc;
+        private Dictionary<Control, short> PlcDataTable;
       
 
         public Main()
@@ -31,8 +36,12 @@ namespace XO_05
             InitializeComponent();
 
             this.Load += MainForm_Load;
+
+
+
             // 訂閱導航按鈕面板的事件，傳遞頁面識別符
             navigationButtonsPanel1.PageRequested += NavigationButtonsPanel_PageRequested;
+
             dataWorker.DoWork += new DoWorkEventHandler(dataWorker_DoWork);
             dataWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(dataWorker_RunWorkerCompleted);
             PollingTimer.Interval = 2000;
@@ -43,6 +52,8 @@ namespace XO_05
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+
+
             //    將所有頁面添加到 panelHost 中，並設定 Dock 屬性
             //    它們都將填滿 panelHost，但只有一個會被 BringToFront
             foreach (var page in _pageManager.Pages.Values)
@@ -57,12 +68,16 @@ namespace XO_05
             // 設置初始顯示的頁面
             SwitchPage("MainPage"); // 預設顯示主頁面
 
+
+
             // ... 訂閱連線狀態變更通知 ...
             PlcConnectionManager.PLCConnection_NetH.ConnectionStatusChanged += OnInitialPlcConnectionStatusChanged;
 
             // 程式一啟動就進行連線
             PlcConnectionManager.Initialize(1, 1); // 使用預設值
             PlcConnectionManager.NetHConnetion.StartConnectionAsync();
+
+            GetPlcReadRequests();
         }
 
 
@@ -70,12 +85,12 @@ namespace XO_05
 
         void PollingTimer_Tick(object sender, EventArgs e)
         {
-            if (_currentPageLifecycle != null && !dataWorker.IsBusy)
+            if (_currentPage != null && !dataWorker.IsBusy)
             {
-                List<PlcReadBlock> request = _currentPageLifecycle.GetPlcReadRequests();
-                if (request != null && request.Count > 0)
+                
+                if (_plcReadRequestsTable != null && _plcReadRequestsTable.Count > 0)
                 {
-                    dataWorker.RunWorkerAsync(request);
+                    dataWorker.RunWorkerAsync(_plcReadRequestsTable);
                 }
             }
         }
@@ -83,6 +98,7 @@ namespace XO_05
 
 
         void dataWorker_DoWork(object sender, DoWorkEventArgs e)
+        
         {
             var worker = (BackgroundWorker)sender;
             var requests = (List<PlcReadBlock>)e.Argument;
@@ -93,14 +109,12 @@ namespace XO_05
                 e.Result = new Exception("PLC is not connected");
                 return;
             }
-
-            var dataReader = new PlcDataReader_NetH();
-
+      
             try
             {
-                Dictionary<string, short[]> results = dataReader.ReadData(requests);
+                GetPlcData();
+                OrganizePlcDataTable();
                 if (worker.CancellationPending) {e.Cancel = true; return;};
-                e.Result = results;
             }
             catch(Exception ex)
             {
@@ -109,6 +123,7 @@ namespace XO_05
                 
         }
 
+
         void dataWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             if (e.Cancelled) return;
@@ -116,7 +131,7 @@ namespace XO_05
             if (e.Error != null)
             {
                 PollingTimer.Stop();
-                MessageBox.Show("讀取PLC時發生預期物的錯誤:\n" + e.Error.Message);
+                MessageBox.Show("讀取PLC時發生預期外的錯誤:\n" + e.Error.Message);
                 return;
             }
 
@@ -128,18 +143,12 @@ namespace XO_05
                 return;
             }
 
-            if (e.Result is Dictionary<string, short[]> && _currentPageLifecycle != null)
+            if (PlcDataTable != null && _currentPage != null)
             {
-                var _plcData = (Dictionary<string, short[]>)e.Result;
-                _currentPageLifecycle.UpdateUi(_plcData);
+                UpdateUi();
             }
 
         }
-
-
-
-
-
 
 
 
@@ -158,10 +167,14 @@ namespace XO_05
 
             if (_pageManager.Pages.TryGetValue(pageKey, out targetPage)) // 然後再使用 out 關鍵字
             {
+                targetPage.BringToFront();
 
+            }
+            else
+            {
                 // C# 4.0 中不能使用字串內插 (String Interpolation) ($"...")
                 // 改用傳統的字串拼接
-                MessageBox.Show("Page '" + pageKey + "' not found.", "Page Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Page '" + pageKey + "' not found.", "Page Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);            
             }
 
             if (targetPage == _currentPageControl) { return; }
@@ -174,42 +187,90 @@ namespace XO_05
             }
 
             //通知舊頁面即將被隱藏
-            if (_currentPageLifecycle != null)
+            if (_currentPage != null)
             {
-                _currentPageLifecycle.OnPageHidden();
+                _currentPage.OnPageHidden();
             }
 
             //切換頁面
             // 將目標頁面帶到最前面顯示
             targetPage.BringToFront();
             _currentPageControl = targetPage;
-            _currentPageLifecycle = targetPage as IpageLifecycle;
+            _currentPage = targetPage as IpageLifecycle;
 
-            if (_currentPageLifecycle != null)
+            if (_currentPage != null)
             {
-                _currentPageLifecycle.OnPageVisible();
+                _currentPage.OnPageVisible();
                 PollingTimer.Start();
             }
+
+            //GetPlcReadRequests();
+
         }
 
 
-         private void OnInitialPlcConnectionStatusChanged(object sender, ConnectionStatusEventArgs e)
+        public void GetPlcReadRequests()
+        {
+            _plcReadRequestsTable = pageTools.CreateReadBlocks(_currentPage.UnitsTable);
+        }
+
+        public void GetPlcData()
+        {
+            RowDataArrayFromPlc = _plcDataReader_NetH.ReadData(_plcReadRequestsTable);
+        }
+
+        public void OrganizePlcDataTable()
+        {
+            PlcDataTable = new Dictionary<Control, short>();
+
+            foreach (var unit in _currentPage.UnitsTable)
             {
+                short value = 0;
+                if (PlcMappingInfo.isBitType(unit.DeviceType))
+                {
+                    value = (short)((RowDataArrayFromPlc[unit.IndexInResultsArray] >> unit.BitIndexInIndexInResultsArray) & 1);
+                    PlcDataTable.Add(unit.UIControl, value);
+                }
+                else
+                {
+                    value = (short)RowDataArrayFromPlc[unit.IndexInResultsArray];
+                    PlcDataTable.Add(unit.UIControl, value);
+                }
+            }
+        }
+
+        public void UpdateUi()
+        { 
+            
+            
+        }
+    
+    
+    
+           private void OnInitialPlcConnectionStatusChanged(object sender, ConnectionStatusEventArgs e)
+         {
                 
-                MessageBox.Show(e.Message);
+            MessageBox.Show(e.Message);
 
-                // 取消訂閱
-                //if (sender is NetHConnection )
-                //{
+            // 取消訂閱
+            //if (sender is NetHConnection )
+            //{
 
-                //    NetHConnection connection = (NetHConnection)sender;
-                //    connection.ConnectionStatusChanged -= OnInitialPlcConnectionStatusChanged;
-                //}
-            }   
+            //    NetHConnection connection = (NetHConnection)sender;
+            //    connection.ConnectionStatusChanged -= OnInitialPlcConnectionStatusChanged;
+            //}
+         }
+
+           private void navigationButtonsPanel1_Load(object sender, EventArgs e)
+           {
+
+           }
+
  
-
-
-
-
+        
+      
+    
     }
+          
+          
 }

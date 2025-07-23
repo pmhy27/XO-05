@@ -94,7 +94,7 @@ namespace XO_05
         /// </summary>
         /// <param name="readBlocks">一個包含多個區塊的列表</param>
         /// <returns>一個包含所有讀回資料的字典，KEY = "裝置類型"+"起始位置"</returns>
-        public  Dictionary<string, short[]> ReadData(List<PlcReadBlock> readBlocks)
+        public short[] ReadData(List<PlcReadBlock> readBlocks)
         {
             if (!PlcConnectionManager.NetHConnetion.IsConnected || readBlocks == null || readBlocks.Count == 0)
             {
@@ -114,7 +114,15 @@ namespace XO_05
                 devArray[1 + i * 3] = block.DeviceTypeInMDFUNC32;
                 devArray[2 + i * 3] = block.StartAddress;
                 devArray[3 + i * 3] = block.PointsToRead;
-                totalPoints += block.PointsToRead;
+
+                if (PlcMappingInfo.isBitType(block.DeviceType))
+                {
+                    totalPoints += 1;
+                }
+                else
+                {
+                    totalPoints += block.PointsToRead;                
+                }
             }
 
             //準備一個足夠大的緩衝區
@@ -136,28 +144,27 @@ namespace XO_05
             if (result != 0)
             {
                 throw new Exception("PL隨機讀取(CmdRandREx)失敗，錯誤碼：" + result);
-                return null;
             }
 
 
-            //讀取成功，將結果從array編成dictionary方便使用
-            Dictionary<string, short[]> resultMap = new Dictionary<string,short[]>();
-            int bufferIndex = 0;
+            ////讀取成功，將結果從array編成dictionary方便使用
+            //Dictionary<string, short[]> resultMap = new Dictionary<string,short[]>();
+            //int bufferIndex = 0;
 
-            //將讀出來的buffer拆解成小塊
-            foreach(var block in readBlocks)
-            {
-                short[] blockData = new short[block.PointsToRead];
-                Array.Copy(dataBuffer, bufferIndex, blockData, 0, block.PointsToRead);
+            ////將讀出來的buffer拆解成小塊
+            //foreach(var block in readBlocks)
+            //{
+            //    short[] blockData = new short[block.PointsToRead];
+            //    Array.Copy(dataBuffer, bufferIndex, blockData, 0, block.PointsToRead);
 
-            //用裝置類型"+"起始位置"當KEY，上面拆出來的ARRAY[]當VALUE
-                string key = string.Format("{0}{1}", block.DeviceType, block.StartAddress);
-                resultMap.Add(key, blockData);
+            ////用裝置類型"+"起始位置"當KEY，上面拆出來的ARRAY[]當VALUE
+            //    string key = string.Format("{0}{1}", block.DeviceType, block.StartAddress);
+            //    resultMap.Add(key, blockData);
 
-                bufferIndex += block.PointsToRead;            
-            }
+            //    bufferIndex += block.PointsToRead;            
+            //}
 
-            return resultMap;
+            return dataBuffer;
         }
 
 

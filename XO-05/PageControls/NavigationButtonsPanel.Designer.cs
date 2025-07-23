@@ -43,7 +43,7 @@
             this.button_ChangePage_SystemRecipeSetting.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_ChangePage_SystemRecipeSetting.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button_ChangePage_SystemRecipeSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button_ChangePage_SystemRecipeSetting.Location = new System.Drawing.Point(707, 3);
+            this.button_ChangePage_SystemRecipeSetting.Location = new System.Drawing.Point(719, 3);
             this.button_ChangePage_SystemRecipeSetting.Name = "button_ChangePage_SystemRecipeSetting";
             this.button_ChangePage_SystemRecipeSetting.Size = new System.Drawing.Size(197, 50);
             this.button_ChangePage_SystemRecipeSetting.TabIndex = 6;
@@ -57,7 +57,7 @@
             this.button_ChangePage_SkipSetting.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_ChangePage_SkipSetting.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button_ChangePage_SkipSetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button_ChangePage_SkipSetting.Location = new System.Drawing.Point(578, 3);
+            this.button_ChangePage_SkipSetting.Location = new System.Drawing.Point(590, 3);
             this.button_ChangePage_SkipSetting.Name = "button_ChangePage_SkipSetting";
             this.button_ChangePage_SkipSetting.Size = new System.Drawing.Size(112, 50);
             this.button_ChangePage_SkipSetting.TabIndex = 4;
@@ -71,7 +71,7 @@
             this.button_ChangePage_TempMonitor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_ChangePage_TempMonitor.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button_ChangePage_TempMonitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button_ChangePage_TempMonitor.Location = new System.Drawing.Point(272, 3);
+            this.button_ChangePage_TempMonitor.Location = new System.Drawing.Point(284, 3);
             this.button_ChangePage_TempMonitor.Name = "button_ChangePage_TempMonitor";
             this.button_ChangePage_TempMonitor.Size = new System.Drawing.Size(126, 50);
             this.button_ChangePage_TempMonitor.TabIndex = 3;
@@ -85,7 +85,7 @@
             this.button_ChangePage_MainPage.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_ChangePage_MainPage.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button_ChangePage_MainPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button_ChangePage_MainPage.Location = new System.Drawing.Point(153, 3);
+            this.button_ChangePage_MainPage.Location = new System.Drawing.Point(165, 3);
             this.button_ChangePage_MainPage.Name = "button_ChangePage_MainPage";
             this.button_ChangePage_MainPage.Size = new System.Drawing.Size(106, 50);
             this.button_ChangePage_MainPage.TabIndex = 2;
@@ -99,7 +99,7 @@
             this.button_ChangePage_BoardExistence.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_ChangePage_BoardExistence.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button_ChangePage_BoardExistence.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button_ChangePage_BoardExistence.Location = new System.Drawing.Point(413, 3);
+            this.button_ChangePage_BoardExistence.Location = new System.Drawing.Point(425, 3);
             this.button_ChangePage_BoardExistence.Name = "button_ChangePage_BoardExistence";
             this.button_ChangePage_BoardExistence.Size = new System.Drawing.Size(150, 50);
             this.button_ChangePage_BoardExistence.TabIndex = 5;
@@ -116,7 +116,7 @@
             "OVEN_1",
             "OVEN_2",
             "OVEN_3"});
-            this.comboBox1.Location = new System.Drawing.Point(3, 15);
+            this.comboBox1.Location = new System.Drawing.Point(15, 15);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(137, 28);
             this.comboBox1.TabIndex = 7;
@@ -129,7 +129,7 @@
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(921, 3);
+            this.button1.Location = new System.Drawing.Point(933, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 50);
             this.button1.TabIndex = 9;
@@ -150,7 +150,7 @@
             this.Controls.Add(this.button_ChangePage_SystemRecipeSetting);
             this.Controls.Add(this.button_ChangePage_SkipSetting);
             this.Name = "NavigationButtonsPanel";
-            this.Size = new System.Drawing.Size(997, 71);
+            this.Size = new System.Drawing.Size(997, 62);
             this.ResumeLayout(false);
 
         }
