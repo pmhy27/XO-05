@@ -30,14 +30,14 @@ namespace XO_05
         public string DeviceType
         {
             get { return _deviceType; }
-            set {  }
+            set { _deviceType = value; }
         }
 
         private int _startAddress;//元件起始位置
         public int StartAddress
         {
             get { return _startAddress; }
-            set { }
+            set { _startAddress = value; }
         }
 
 
@@ -45,7 +45,7 @@ namespace XO_05
         public int PointsToRead
         {
             get { return _pointsToRead; }
-            set { }
+            set { _pointsToRead = value; }
         }
 
         private short _deviceTypeInMDFUNC32; //PLC記憶體類型的在NET/H通訊LIBRARY裡代號

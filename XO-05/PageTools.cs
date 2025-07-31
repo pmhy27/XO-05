@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace XO_05
 {
     class PageTools
     {
-        #region 
+
+        #region
         //將頁面中的元件作分組及排序，建立一個列表準備詢問plc以取得數值
-        public List<PlcReadBlock> CreateReadBlocks(List<PlcMappingInfo> unitsTable)
+        public List<PlcReadBlock> CreateReadBlocks(List<PLCBuffer>  unitsTable)
         {
             int tempIndex = 0;
             var request = new List<PlcReadBlock>();
@@ -18,6 +20,12 @@ namespace XO_05
             {
                 return request;
             }
+
+            //先去除重複的元素
+            var distinctUnitsTable = unitsTable
+            .GroupBy(m => new { m.DeviceType, m.Address }) // 用 DeviceType 和 Address 作為複合鍵來分組
+            .Select(g => g.First())                       // 從每個分組中只選取第一個元素
+            .ToList();                                    // 將結果轉回 List
 
             //LINQ GroupBy語法，以DeviceType做分組
             var groupByType = unitsTable.GroupBy(m => m.DeviceType);
@@ -70,7 +78,7 @@ namespace XO_05
                     for (int i = 0; i < orderMapping.Count; i++)
                     {
                         var mapping = orderMapping[i];
-                        mapping.IndexInResultsArray = tempIndex ;
+                        mapping.IndexInResultsArray = tempIndex;
                         tempIndex += 1;
 
                         if (currentBlock == null) //新組起始
@@ -81,7 +89,7 @@ namespace XO_05
                         {
                             if (mapping.Address == currentBlock.StartAddress + currentBlock.PointsToRead) //檢查是否連續
                             {
-                                currentBlock.PointsToRead++;
+                                currentBlock.PointsToRead += 1;
                             }
                             else //發現不連續，把前一組做一個結尾，再起新組
                             {
@@ -108,10 +116,10 @@ namespace XO_05
 
 
 
-        #region 
+        #region
         public Dictionary<string, short> CreateResultsMappingTablle(List<PlcMappingInfo> unitTable, short[] resultsFromPlc)
         {
-            return new Dictionary<string,short>();
+            return new Dictionary<string, short>();
         }
         #endregion
 

@@ -46,6 +46,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="PLCBuffer.cs" />
     <Compile Include="LampButton1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -54,6 +55,9 @@
     </Compile>
     <Compile Include="LampLabel1.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PlcInteractable.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SquareLamp1.cs">

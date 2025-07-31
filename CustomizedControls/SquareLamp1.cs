@@ -6,13 +6,14 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using XO_05;
 
 
 
 namespace CustomizedControls
 {
     [System.Diagnostics.DebuggerStepThrough]
-    public partial class SquareLamp1 : UserControl
+    public partial class SquareLamp1 : PlcInteractable
     {
         #region 欄位
         private bool _lampState = false;
@@ -108,6 +109,78 @@ namespace CustomizedControls
         }
 
 
+        public override PLCBuffer[] ReadPlcBuffers
+        {
+            get { return _readPlcBuffers; }
+            set
+            {
+                if (value == _readPlcBuffers) return;
+                Unhook(_readPlcBuffers);
+                _readPlcBuffers = value ?? new PLCBuffer[0];
+                Hook(_readPlcBuffers);
+            }
+
+        }
+
+        private void Hook(PLCBuffer[] bufs)
+        {
+            foreach (var b in bufs)
+            {
+                b.PropertyChanged += PLCBuffer_PropertyChanged;
+            }
+        }
+
+        private void Unhook(PLCBuffer[] bufs)
+        {
+            foreach (var b in bufs)
+            {
+                b.PropertyChanged -= PLCBuffer_PropertyChanged;
+            }
+        }
+
+
+        private void PLCBuffer_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            var s = (PLCBuffer)sender;
+            if (e.PropertyName != "Value") return;
+            SafeInvoke
+            (
+                () =>
+                {
+                    var src = (PLCBuffer)sender;
+                    foreach (var p in _readPlcBuffers)
+                    {
+                        if (PLCBuffer.MakeKey(src) == PLCBuffer.MakeKey(p))
+                        {
+                            p.Value = src.Value;
+                        }
+                    }
+
+                    ReculcLampStatus();
+
+                }
+
+            );
+        }
+
+        private void ReculcLampStatus()
+        {
+            if (_readPlcBuffers.Length > 0)
+            {
+                if (_readPlcBuffers[0].Value > 0)
+                {
+                    _lampState = true;
+
+                }
+                else
+                {
+                    _lampState = false;
+                }
+
+                UpdateLamp();
+            }
+
+        }
     }
 
 

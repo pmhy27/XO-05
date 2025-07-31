@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace XO_05.PageControls
 {
-    public partial class SettingPageControl : UserControl
+    public partial class SettingPageControl : Page
     {
         public SettingPageControl()
         {
@@ -35,16 +35,7 @@ namespace XO_05.PageControls
             button1.Enabled = true;
             button1.Text = "Connect";
 
-            circularLamp11.IsOn = e.IsConnected;
-
-             //成功或失敗後，可以取消訂閱，避免重複收到訊息
-
-            //if (sender is nethconnection)
-            //{
-            //    nethconnection connection = (nethconnection)sender;
-
-            //    connection.connectionstatuschanged -= onplcconnectionstatuschanged;
-            //}
+            Lamp_ConnectionStatus.IsOn = e.IsConnected;
 
         }
 

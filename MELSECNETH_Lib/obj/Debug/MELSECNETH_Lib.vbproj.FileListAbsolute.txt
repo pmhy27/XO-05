@@ -54,3 +54,91 @@ E:\XO-05\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
 E:\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
 E:\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
 E:\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+E:\Projects\XO-05\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+E:\Projects\XO-05\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+E:\Projects\XO-05\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+E:\Projects\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+E:\Projects\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.vbproj.GenerateResource.Cache
+E:\Projects\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+E:\Projects\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+E:\Projects\XO-05\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\MELSECNETH_Lib\obj\Debug\MELSECNETH_Lib.pdb

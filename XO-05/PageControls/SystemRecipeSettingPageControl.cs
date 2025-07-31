@@ -9,11 +9,13 @@ using System.Windows.Forms;
 
 namespace XO_05.PageControls
 {
-    public partial class SystemRecipeSettingPageControl : UserControl
+    public partial class SystemRecipeSettingPageControl : Page
     {
         public SystemRecipeSettingPageControl()
         {
             InitializeComponent();
+            FindAllPlcInteractables((Control)this);
+            GetAllReadPlcBuffers();
         }
 
         private void label2_Click(object sender, EventArgs e)

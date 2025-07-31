@@ -62,3 +62,91 @@ E:\XO-05\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
 E:\XO-05\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
 E:\XO-05\CustomizedControls\obj\Debug\CustomizedControls.dll
 E:\XO-05\CustomizedControls\obj\Debug\CustomizedControls.pdb
+E:\Projects\XO-05\CustomizedControls\bin\Debug\CustomizedControls.dll
+E:\Projects\XO-05\CustomizedControls\bin\Debug\CustomizedControls.pdb
+E:\Projects\XO-05\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+E:\Projects\XO-05\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+E:\Projects\XO-05\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+E:\Projects\XO-05\CustomizedControls\obj\Debug\CustomizedControls.csproj.GenerateResource.Cache
+E:\Projects\XO-05\CustomizedControls\obj\Debug\CustomizedControls.dll
+E:\Projects\XO-05\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\CustomizedControls\obj\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\CustomizedControls.LampButton1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\CustomizedControls.SquareLamp1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\CustomizedControls.ValueBox1.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\CustomizedControls\obj\Debug\CustomizedControls.pdb

@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventArgs.cs" />
+    <Compile Include="Infrastructure\IPlcConnection.cs" />
     <Compile Include="IpageLifecycle.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -58,6 +60,9 @@
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="NetHConnection.cs" />
+    <Compile Include="Page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="PageControls\BoardExitancePageControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -100,13 +105,16 @@
     <Compile Include="PageControls\TempMonitorPageControl.Designer.cs">
       <DependentUpon>TempMonitorPageControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="PagesControl.cs" />
+    <Compile Include="PagesList.cs" />
     <Compile Include="PageTools.cs" />
     <Compile Include="PlcConnectionManager.cs" />
     <Compile Include="PlcDataReader.cs" />
+    <Compile Include="PlcDataWriter.cs" />
     <Compile Include="PlcMappingInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IPlcScheduler.cs" />
+    <Compile Include="Services\PlcScheduler.cs" />
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>

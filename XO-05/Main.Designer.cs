@@ -54,7 +54,6 @@
             this.navigationButtonsPanel1.Name = "navigationButtonsPanel1";
             this.navigationButtonsPanel1.Size = new System.Drawing.Size(1016, 62);
             this.navigationButtonsPanel1.TabIndex = 1;
-            this.navigationButtonsPanel1.Load += new System.EventHandler(this.navigationButtonsPanel1_Load);
             // 
             // Main
             // 

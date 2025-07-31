@@ -9,9 +9,8 @@ using System.Windows.Forms;
 
 namespace XO_05.PageControls
 {
-    public partial class MainPagePageControl : UserControl,IpageLifecycle
+    public partial class MainPagePageControl : Page
     {
-        public List<PlcMappingInfo> UnitsTable{ get; private set; }
         PageTools pageTools = new PageTools();
   
 
@@ -19,33 +18,23 @@ namespace XO_05.PageControls
         public MainPagePageControl()
         {
             InitializeComponent();
-            UnitsTable = new List<PlcMappingInfo>();
-            InitilizeLampDataMappings();
-
-
+            FindAllPlcInteractables((Control)this);
+            GetAllReadPlcBuffers();
         }
 
         public void InitilizeLampDataMappings()
         {
-            
-            UnitsTable.Add(new PlcMappingInfo { UIControl = lampButton_Inline, DeviceType = "L", Address = 1200 });
-            UnitsTable.Add(new PlcMappingInfo { UIControl = lampButton_Offline, DeviceType = "L", Address = 1201 });
-            UnitsTable.Add(new PlcMappingInfo { UIControl = lampButton_HeaterOn, DeviceType = "L", Address = 1202 });
-            UnitsTable.Add(new PlcMappingInfo { UIControl = lampButton_HeaterOff, DeviceType = "L", Address = 1203 });
-            UnitsTable.Add(new PlcMappingInfo { UIControl = lampButton_CycleStopOn, DeviceType = "L", Address = 1204 });
-            UnitsTable.Add(new PlcMappingInfo { UIControl = lampButton_CycleStopOff, DeviceType = "L", Address = 1205 });         
+                 
         }
 
-
-        public void OnPageVisible()
+        private void lampButton_Inline_Click(object sender, EventArgs e)
         {
-           
+
         }
 
-        public void OnPageHidden()
-        {
-            
-        }
+
+
+
 
     }
 

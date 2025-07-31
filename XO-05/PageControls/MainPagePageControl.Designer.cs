@@ -28,6 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            XO_05.PLCBuffer plcBuffer1 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer2 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer3 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer4 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer5 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer6 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer7 = new XO_05.PLCBuffer();
+            XO_05.PLCBuffer plcBuffer8 = new XO_05.PLCBuffer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lampButton_Inline = new CustomizedControls.LampButton1();
             this.lampButton_Offline = new CustomizedControls.LampButton1();
@@ -77,11 +85,35 @@
             this.lampButton_Inline.LampState = false;
             this.lampButton_Inline.Location = new System.Drawing.Point(5, 6);
             this.lampButton_Inline.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton_Inline.MonitorUnit = null;
             this.lampButton_Inline.Name = "lampButton_Inline";
+            this.lampButton_Inline.ReadBufferCount = 1;
+            plcBuffer1.Address = 1200;
+            plcBuffer1.BitIndexInIndexInResultsArray = 0;
+            plcBuffer1.DeviceType = "L";
+            plcBuffer1.IndexInResultsArray = 0;
+            plcBuffer1.IsChanged = false;
+            plcBuffer1.Value = ((short)(0));
+            this.lampButton_Inline.ReadPlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer1};
             this.lampButton_Inline.Size = new System.Drawing.Size(146, 52);
             this.lampButton_Inline.TabIndex = 12;
-            this.lampButton_Inline.TargetUnit = null;
+            this.lampButton_Inline.WriteBufferCount = 2;
+            plcBuffer2.Address = 0;
+            plcBuffer2.BitIndexInIndexInResultsArray = 0;
+            plcBuffer2.DeviceType = null;
+            plcBuffer2.IndexInResultsArray = 0;
+            plcBuffer2.IsChanged = false;
+            plcBuffer2.Value = ((short)(0));
+            plcBuffer3.Address = 0;
+            plcBuffer3.BitIndexInIndexInResultsArray = 0;
+            plcBuffer3.DeviceType = null;
+            plcBuffer3.IndexInResultsArray = 0;
+            plcBuffer3.IsChanged = false;
+            plcBuffer3.Value = ((short)(0));
+            this.lampButton_Inline.WritePlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer2,
+        plcBuffer3};
+            this.lampButton_Inline.Click += new System.EventHandler(this.lampButton_Inline_Click);
             // 
             // lampButton_Offline
             // 
@@ -92,11 +124,20 @@
             this.lampButton_Offline.LampState = false;
             this.lampButton_Offline.Location = new System.Drawing.Point(161, 6);
             this.lampButton_Offline.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton_Offline.MonitorUnit = null;
             this.lampButton_Offline.Name = "lampButton_Offline";
+            this.lampButton_Offline.ReadBufferCount = 1;
+            plcBuffer4.Address = 1201;
+            plcBuffer4.BitIndexInIndexInResultsArray = 0;
+            plcBuffer4.DeviceType = "L";
+            plcBuffer4.IndexInResultsArray = 0;
+            plcBuffer4.IsChanged = false;
+            plcBuffer4.Value = ((short)(0));
+            this.lampButton_Offline.ReadPlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer4};
             this.lampButton_Offline.Size = new System.Drawing.Size(146, 52);
             this.lampButton_Offline.TabIndex = 13;
-            this.lampButton_Offline.TargetUnit = null;
+            this.lampButton_Offline.WriteBufferCount = 0;
+            this.lampButton_Offline.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // panel2
             // 
@@ -118,11 +159,20 @@
             this.lampButton_HeaterOn.LampState = false;
             this.lampButton_HeaterOn.Location = new System.Drawing.Point(5, 6);
             this.lampButton_HeaterOn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton_HeaterOn.MonitorUnit = null;
             this.lampButton_HeaterOn.Name = "lampButton_HeaterOn";
+            this.lampButton_HeaterOn.ReadBufferCount = 1;
+            plcBuffer5.Address = 1202;
+            plcBuffer5.BitIndexInIndexInResultsArray = 0;
+            plcBuffer5.DeviceType = "L";
+            plcBuffer5.IndexInResultsArray = 0;
+            plcBuffer5.IsChanged = false;
+            plcBuffer5.Value = ((short)(0));
+            this.lampButton_HeaterOn.ReadPlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer5};
             this.lampButton_HeaterOn.Size = new System.Drawing.Size(146, 52);
             this.lampButton_HeaterOn.TabIndex = 14;
-            this.lampButton_HeaterOn.TargetUnit = null;
+            this.lampButton_HeaterOn.WriteBufferCount = 0;
+            this.lampButton_HeaterOn.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // lampButton_HeaterOff
             // 
@@ -133,11 +183,20 @@
             this.lampButton_HeaterOff.LampState = false;
             this.lampButton_HeaterOff.Location = new System.Drawing.Point(161, 6);
             this.lampButton_HeaterOff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton_HeaterOff.MonitorUnit = null;
             this.lampButton_HeaterOff.Name = "lampButton_HeaterOff";
+            this.lampButton_HeaterOff.ReadBufferCount = 1;
+            plcBuffer6.Address = 1203;
+            plcBuffer6.BitIndexInIndexInResultsArray = 0;
+            plcBuffer6.DeviceType = "L";
+            plcBuffer6.IndexInResultsArray = 0;
+            plcBuffer6.IsChanged = false;
+            plcBuffer6.Value = ((short)(0));
+            this.lampButton_HeaterOff.ReadPlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer6};
             this.lampButton_HeaterOff.Size = new System.Drawing.Size(146, 52);
             this.lampButton_HeaterOff.TabIndex = 15;
-            this.lampButton_HeaterOff.TargetUnit = null;
+            this.lampButton_HeaterOff.WriteBufferCount = 0;
+            this.lampButton_HeaterOff.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // panel3
             // 
@@ -159,11 +218,20 @@
             this.lampButton_CycleStopOn.LampState = false;
             this.lampButton_CycleStopOn.Location = new System.Drawing.Point(5, 6);
             this.lampButton_CycleStopOn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton_CycleStopOn.MonitorUnit = null;
             this.lampButton_CycleStopOn.Name = "lampButton_CycleStopOn";
+            this.lampButton_CycleStopOn.ReadBufferCount = 1;
+            plcBuffer7.Address = 1204;
+            plcBuffer7.BitIndexInIndexInResultsArray = 0;
+            plcBuffer7.DeviceType = "L";
+            plcBuffer7.IndexInResultsArray = 0;
+            plcBuffer7.IsChanged = false;
+            plcBuffer7.Value = ((short)(0));
+            this.lampButton_CycleStopOn.ReadPlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer7};
             this.lampButton_CycleStopOn.Size = new System.Drawing.Size(146, 52);
             this.lampButton_CycleStopOn.TabIndex = 16;
-            this.lampButton_CycleStopOn.TargetUnit = null;
+            this.lampButton_CycleStopOn.WriteBufferCount = 0;
+            this.lampButton_CycleStopOn.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // lampButton_CycleStopOff
             // 
@@ -174,11 +242,20 @@
             this.lampButton_CycleStopOff.LampState = false;
             this.lampButton_CycleStopOff.Location = new System.Drawing.Point(161, 6);
             this.lampButton_CycleStopOff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton_CycleStopOff.MonitorUnit = null;
             this.lampButton_CycleStopOff.Name = "lampButton_CycleStopOff";
+            this.lampButton_CycleStopOff.ReadBufferCount = 1;
+            plcBuffer8.Address = 1205;
+            plcBuffer8.BitIndexInIndexInResultsArray = 0;
+            plcBuffer8.DeviceType = "L";
+            plcBuffer8.IndexInResultsArray = 0;
+            plcBuffer8.IsChanged = false;
+            plcBuffer8.Value = ((short)(0));
+            this.lampButton_CycleStopOff.ReadPlcBuffers = new XO_05.PLCBuffer[] {
+        plcBuffer8};
             this.lampButton_CycleStopOff.Size = new System.Drawing.Size(146, 52);
             this.lampButton_CycleStopOff.TabIndex = 17;
-            this.lampButton_CycleStopOff.TargetUnit = null;
+            this.lampButton_CycleStopOff.WriteBufferCount = 0;
+            this.lampButton_CycleStopOff.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // label1
             // 
@@ -225,8 +302,12 @@
             this.squareLamp12.Location = new System.Drawing.Point(708, 58);
             this.squareLamp12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.squareLamp12.Name = "squareLamp12";
+            this.squareLamp12.ReadBufferCount = 0;
+            this.squareLamp12.ReadPlcBuffers = new XO_05.PLCBuffer[0];
             this.squareLamp12.Size = new System.Drawing.Size(264, 452);
             this.squareLamp12.TabIndex = 22;
+            this.squareLamp12.WriteBufferCount = 0;
+            this.squareLamp12.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // squareLamp11
             // 
@@ -238,8 +319,12 @@
             this.squareLamp11.Location = new System.Drawing.Point(392, 58);
             this.squareLamp11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.squareLamp11.Name = "squareLamp11";
+            this.squareLamp11.ReadBufferCount = 0;
+            this.squareLamp11.ReadPlcBuffers = new XO_05.PLCBuffer[0];
             this.squareLamp11.Size = new System.Drawing.Size(264, 452);
             this.squareLamp11.TabIndex = 21;
+            this.squareLamp11.WriteBufferCount = 0;
+            this.squareLamp11.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // labelLamp11
             // 
@@ -386,11 +471,13 @@
             this.lampButton11.LampState = false;
             this.lampButton11.Location = new System.Drawing.Point(455, 528);
             this.lampButton11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton11.MonitorUnit = null;
             this.lampButton11.Name = "lampButton11";
+            this.lampButton11.ReadBufferCount = 0;
+            this.lampButton11.ReadPlcBuffers = new XO_05.PLCBuffer[0];
             this.lampButton11.Size = new System.Drawing.Size(172, 52);
             this.lampButton11.TabIndex = 42;
-            this.lampButton11.TargetUnit = null;
+            this.lampButton11.WriteBufferCount = 0;
+            this.lampButton11.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // lampButton12
             // 
@@ -401,11 +488,13 @@
             this.lampButton12.LampState = false;
             this.lampButton12.Location = new System.Drawing.Point(759, 528);
             this.lampButton12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.lampButton12.MonitorUnit = null;
             this.lampButton12.Name = "lampButton12";
+            this.lampButton12.ReadBufferCount = 0;
+            this.lampButton12.ReadPlcBuffers = new XO_05.PLCBuffer[0];
             this.lampButton12.Size = new System.Drawing.Size(172, 52);
             this.lampButton12.TabIndex = 43;
-            this.lampButton12.TargetUnit = null;
+            this.lampButton12.WriteBufferCount = 0;
+            this.lampButton12.WritePlcBuffers = new XO_05.PLCBuffer[0];
             // 
             // MainPagePageControl
             // 

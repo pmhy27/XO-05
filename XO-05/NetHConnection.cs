@@ -3,6 +3,8 @@ using System.ComponentModel;
 using System.Threading;
 using System.Windows.Forms;
 using MELSECNETH_Lib;
+using XO_05.Infrastructure;
+using XO_05;
 
 namespace XO_05
 {
@@ -20,12 +22,9 @@ namespace XO_05
     }
 
         
-    public class NetHConnection
+    public class NetHConnection : IPlcConnection 
     {
 
-        // ----- 定義一個公開的事件 -----
-        // 讓外部可以訂閱這個事件，來接收連線狀態的變更通知
-        public event EventHandler<ConnectionStatusEventArgs> ConnectionStatusChanged;
 
 
         public int _connectingPath = 0;
@@ -40,14 +39,20 @@ namespace XO_05
         public bool IsConnected { get; private set; }
         public bool IsChanelOpen { get; private set; }
 
-        // ----- 建構子 -----
-        // 不再需要傳入 Control，而是取得目前的同步上下文
         public NetHConnection(int networkNo, short stationNo)
         {
             this.NetworkNo = networkNo;
             this.StationNo = stationNo;
-            // 捕捉當前執行緒的同步上下文，這樣我們才能安全地將事件送回 UI 執行緒
+
+            // 捕捉當前執行緒的同步上下文
             _syncContext = SynchronizationContext.Current;
+        }
+
+
+        #region //Connect(int networkNo, short stationNo),StartConnectionAsync()
+        public void Connect(int networkNo, short stationNo)
+        {
+            StartConnectionAsync();
         }
 
         // ----- 連線方法 -----
@@ -94,7 +99,9 @@ namespace XO_05
             _stopMonitoring = false;
             _monitorThread.Start();
         }
+        #endregion
 
+        #region //CheckConnectionLoop()
         // ----- 修改監控迴圈 -----
         private void CheckConnectionLoop()
         {
@@ -114,17 +121,48 @@ namespace XO_05
                     }
                     else
                     {
-                        if(this.IsConnected == false)
+                        if (this.IsConnected == false)
                         {
                             RaiseConnectionStatusChanged(true, "MELSECNET/H 連線成功");
                         }
                         this.IsConnected = true;
-                        
+
                     }
                 }
                 Thread.Sleep(2000);
             }
         }
+        #endregion
+
+        #region // Disconnected(),Dispose(),EndConnection()
+        public void Disconnected()
+        {
+            Dispose();
+        }
+
+
+        public void Dispose()
+        {
+            EndConnection();
+        }
+
+        public void EndConnection()
+        {
+            _stopMonitoring = true; // 通知監控執行緒結束
+            if (_monitorThread != null && _monitorThread.IsAlive)
+            {
+                _monitorThread.Join(100); // 等待執行緒結束
+            }
+
+            if (_connectingPath != 0)
+            {
+                MDFUNC32.mdClose(_connectingPath);
+                _connectingPath = 0;
+            }
+            this.IsChanelOpen = false;
+            this.IsConnected = false;
+        }
+        #endregion
 
         // ----- 新增一個安全觸發事件的方法 -----
         private void RaiseConnectionStatusChanged(bool isConnected, string message)
@@ -146,24 +184,9 @@ namespace XO_05
 
 
             }
-        }
-
-        public void EndConnection()
-        {
-            _stopMonitoring = true; // 通知監控執行緒結束
-            if (_monitorThread != null && _monitorThread.IsAlive)
-            {
-                _monitorThread.Join(100); // 等待執行緒結束
-            }
-
-            if (_connectingPath != 0)
-            {
-                MDFUNC32.mdClose(_connectingPath);
-                _connectingPath = 0;
-            }
-            this.IsChanelOpen = false;
-            this.IsConnected = false;
-        }
+        }    
+    
+    
     }
 }
 

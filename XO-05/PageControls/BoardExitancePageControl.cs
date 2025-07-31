@@ -5,12 +5,14 @@ using System.Windows.Forms;
 namespace XO_05.PageControls
 {
     [System.Diagnostics.DebuggerStepThrough]
-    public partial class BoardExistencePageControl : UserControl
+    public partial class BoardExistencePageControl : Page
     {
         public BoardExistencePageControl()
         {
             InitializeComponent();
             this.Load += BoardExistencePageControl_Load;
+            FindAllPlcInteractables((Control)this);
+            GetAllReadPlcBuffers();
         }
 
         private void BoardExistencePageControl_Load(object sender, EventArgs e)

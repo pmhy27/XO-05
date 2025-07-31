@@ -26,8 +26,6 @@ namespace XO_05
         }
 
 
-
-
         public PlcMappingInfo()
         {
         }
@@ -39,16 +37,11 @@ namespace XO_05
         public string DeviceType { get; set; }
 
 
-
         public int Address { get; set; }
 
 
         public int IndexInResultsArray { get; set; }
         public int BitIndexInIndexInResultsArray { get; set; }
-
-
-
-
 
 
     }

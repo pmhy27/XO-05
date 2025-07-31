@@ -9,11 +9,13 @@ using System.Windows.Forms;
 
 namespace XO_05.PageControls
 {
-    public partial class SkipSettingPageControl : UserControl
+    public partial class SkipSettingPageControl : Page
     {
         public SkipSettingPageControl()
         {
             InitializeComponent();
+            FindAllPlcInteractables((Control)this);
+            GetAllReadPlcBuffers();
         }
     }
 }

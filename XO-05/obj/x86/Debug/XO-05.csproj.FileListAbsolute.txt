@@ -129,3 +129,191 @@ E:\XO-05\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\XO-05\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\XO-05\XO-05\obj\x86\Debug\XO-05.exe
 E:\XO-05\XO-05\obj\x86\Debug\XO-05.pdb
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO-05.csprojResolveAssemblyReference.cache
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.Main.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO-05.csproj.GenerateResource.Cache
+E:\Projects\XO-05\XO-05\bin\Debug\XO-05.exe
+E:\Projects\XO-05\XO-05\bin\Debug\XO-05.pdb
+E:\Projects\XO-05\XO-05\bin\Debug\CustomizedControls.dll
+E:\Projects\XO-05\XO-05\bin\Debug\MELSECNETH_Lib.dll
+E:\Projects\XO-05\XO-05\bin\Debug\CustomizedControls.pdb
+E:\Projects\XO-05\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+E:\Projects\XO-05\XO-05\bin\Debug\MELSECNETH_Lib.xml
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO-05.exe
+E:\Projects\XO-05\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_0724\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_0725\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07251523\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -XO-05_07251901\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -複製 -複製 -XO-05_07251952\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_07280923\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\複製 -XO-05_07281735\XO-05\obj\x86\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.Main.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.BoardExistencePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.MainPagePageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.NavigationButtonsPanel.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.SettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.SkipSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.SystemRecipeSettingPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.PageControls.TempMonitorPageControl.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO_05.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\XO-05.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\CustomizedControls.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\MELSECNETH_Lib.dll
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\CustomizedControls.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\MELSECNETH_Lib.pdb
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\bin\Debug\MELSECNETH_Lib.xml
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO-05.exe
+C:\Documents and Settings\Administrator\桌面\XO-05_07291520\XO-05\obj\x86\Debug\XO-05.pdb
