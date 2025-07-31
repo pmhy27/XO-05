@@ -96,7 +96,7 @@ namespace XO_05
         /// <returns>一個包含所有讀回資料的字典，KEY = "裝置類型"+"起始位置"</returns>
         public short[] ReadData(List<PlcReadBlock> readBlocks)
         {
-            if (!PlcConnectionManager.NetHConnetion.IsConnected || readBlocks == null || readBlocks.Count == 0)
+            if (!PlcConnectionManager.NetHConnection.IsConnected || readBlocks == null || readBlocks.Count == 0)
             {
                 return null;
             }
@@ -131,9 +131,9 @@ namespace XO_05
 
             //執行隨機讀取命令
             int result = MDFUNC32.mdRandREx(
-                PlcConnectionManager.NetHConnetion._connectingPath,
-                PlcConnectionManager.NetHConnetion.NetworkNo,
-                PlcConnectionManager.NetHConnetion.StationNo,
+                PlcConnectionManager.NetHConnection._connectingPath,
+                PlcConnectionManager.NetHConnection.NetworkNo,
+                PlcConnectionManager.NetHConnection.StationNo,
                 ref devArray[0],
                 ref dataBuffer[0],
                 bufferSizeInByte

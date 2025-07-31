@@ -80,7 +80,7 @@ namespace XO_05
 
             // 程式一啟動就進行連線
             PlcConnectionManager.Initialize(1, 1); // 使用預設值
-            PlcConnectionManager.NetHConnetion.StartConnectionAsync();
+            PlcConnectionManager.NetHConnection.StartConnectionAsync();
 
             //GetPlcReadRequests();
         }
@@ -122,7 +122,7 @@ namespace XO_05
             var requests = (List<PlcReadBlock>)e.Argument;
             if (worker.CancellationPending) { e.Cancel = true; return; }
 
-            if (PlcConnectionManager.NetHConnetion == null || !PlcConnectionManager.NetHConnetion.IsConnected)
+            if (PlcConnectionManager.NetHConnection == null || !PlcConnectionManager.NetHConnection.IsConnected)
             {
                 e.Result = new Exception("PLC is not connected");
                 return;

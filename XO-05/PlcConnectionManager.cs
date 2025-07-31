@@ -11,18 +11,18 @@ namespace XO_05
 
         public static readonly PlcConnectionManager PLCConnection_NetH = new PlcConnectionManager();
 
-        public static NetHConnection NetHConnetion { get; private set; }
+        public static NetHConnection NetHConnection { get; private set; }
 
         // Initialize 方法現在只負責建立物件和訂閱事件
         public static void Initialize(int networkNo, short stationNo)
         {
             // 如果已經存在，先確保舊的連線被關閉
-            if (NetHConnetion != null)
+            if (NetHConnection != null)
             {
-                NetHConnetion.EndConnection();
+                NetHConnection.EndConnection();
             }
 
-            NetHConnetion = new NetHConnection(networkNo, stationNo);
+            NetHConnection = new NetHConnection(networkNo, stationNo);
         }
 
         public void PublishStatusChanged(object sender, ConnectionStatusEventArgs e)

@@ -194,7 +194,7 @@ namespace XO_05
             if (writeBlocks == null || writeBlocks.Count == 0)
                 throw new ArgumentException("writeBlocks 不可為空。");
 
-            if (PlcConnectionManager.NetHConnetion == null || !PlcConnectionManager.NetHConnetion.IsConnected)
+            if (PlcConnectionManager.NetHConnection == null || !PlcConnectionManager.NetHConnection.IsConnected)
                 throw new InvalidOperationException("尚未連線 PLC。");
 
             // 建 devArray：第一個元素是區塊數；後面依序 [devType, startAddr, points]
@@ -224,9 +224,9 @@ namespace XO_05
             int bufferSizeInByte = totalPoints * 2; // 1 short = 2 bytes
 
             int result = MDFUNC32.mdRandWEx(
-                PlcConnectionManager.NetHConnetion._connectingPath,
-                PlcConnectionManager.NetHConnetion.NetworkNo,
-                PlcConnectionManager.NetHConnetion.StationNo,
+                PlcConnectionManager.NetHConnection._connectingPath,
+                PlcConnectionManager.NetHConnection.NetworkNo,
+                PlcConnectionManager.NetHConnection.StationNo,
                 ref devArray[0],
                 ref dataBuffer[0],
                 bufferSizeInByte);

@@ -23,7 +23,7 @@ namespace XO_05.PageControls
             //PLCConnectionManager.NetHConnetion.ConnectionStatusChanged += OnPlcConnectionStatusChanged;
 
             // 3. 呼叫非同步的連線方法，UI 不會被卡住
-            PlcConnectionManager.NetHConnetion.StartConnectionAsync();
+            PlcConnectionManager.NetHConnection.StartConnectionAsync();
 
             button1.Enabled = false;
             button1.Text = "Connecting...";

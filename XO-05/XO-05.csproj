@@ -63,11 +63,11 @@
     <Compile Include="Page.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PageControls\BoardExitancePageControl.cs">
+    <Compile Include="PageControls\BoardExistancePageControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PageControls\BoardExitancePageControl.Designer.cs">
-      <DependentUpon>BoardExitancePageControl.cs</DependentUpon>
+    <Compile Include="PageControls\BoardExistancePageControl.Designer.cs">
+      <DependentUpon>BoardExistancePageControl.cs</DependentUpon>
     </Compile>
     <Compile Include="PageControls\MainPagePageControl.cs">
       <SubType>UserControl</SubType>
@@ -105,7 +105,7 @@
     <Compile Include="PageControls\TempMonitorPageControl.Designer.cs">
       <DependentUpon>TempMonitorPageControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="PagesList.cs" />
+    <Compile Include="PageList.cs" />
     <Compile Include="PageTools.cs" />
     <Compile Include="PlcConnectionManager.cs" />
     <Compile Include="PlcDataReader.cs" />
@@ -118,8 +118,8 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PageControls\BoardExitancePageControl.resx">
-      <DependentUpon>BoardExitancePageControl.cs</DependentUpon>
+    <EmbeddedResource Include="PageControls\BoardExistancePageControl.resx">
+      <DependentUpon>BoardExistancePageControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PageControls\MainPagePageControl.resx">
       <DependentUpon>MainPagePageControl.cs</DependentUpon>
