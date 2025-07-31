@@ -48,7 +48,7 @@ namespace XO_05
             dataWorker.DoWork += new DoWorkEventHandler(dataWorker_DoWork);
             dataWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(dataWorker_RunWorkerCompleted);
             dataWorker.WorkerSupportsCancellation = true;
-            PollingTimer.Interval = 1000;
+            PollingTimer.Interval = consta
             PollingTimer.Tick += new EventHandler(PollingTimer_Tick);
         }
 

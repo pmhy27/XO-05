@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventArgs.cs" />
+    <Compile Include="Infrastructure\Constants.cs" />
     <Compile Include="Infrastructure\IPlcConnection.cs" />
     <Compile Include="IpageLifecycle.cs" />
     <Compile Include="Main.cs">
