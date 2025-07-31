@@ -12,18 +12,24 @@ namespace XO_05.Infrastructure
     /// </summary>
     public interface IPlcConnection :IDisposable
     {
-        bool IsConnected { get; }
-        void Connect(int networkNo, short stationNo);
-        void Disconnected();
+        bool Connect();
+        void DisConncect();
         
+        bool IsConnected { get; }
 
-        ///// <param name="device">Ex:D100</param>
-        ///// <param name="lenth">Word數</param>
-        //int[] Read(string device, int lenth);
+        event EventHandler ConnectionStatusChanged;
+    }
 
-        ///// <param name="device"></param>
-        ///// <param name="data">查看手冊</param>
-        //void Write(string device, int[] data);
-    
+
+    public interface IPlcReader
+    {
+        ushort[] Read(PlcReadBlock[] blocks);
+    }
+
+
+    public interface IPlcWriter : IDisposable
+    {
+        void EnqueueWrite(PlcWriteCommand cmd);
+        event EventHandler<PlcWriteCompleteEventArgs> WriteCompleted;
     }
 }

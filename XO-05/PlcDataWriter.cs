@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using MELSECNETH_Lib;
 using System.Collections.Concurrent;
-using System.Threading;   // 你已經在 PlcDataReader 用了這個 DLL
+using System.Threading;   
+using XO_05.Infrastructure;
 
 namespace XO_05
 {
@@ -108,8 +109,9 @@ namespace XO_05
     /// <summary>
     /// 單例寫入服務。背景執行緒阻塞等待，收到命令後呼叫 PlcDataWriter_NetH 進行實際寫入。
     /// </summary>
-    public sealed class PlcWriteService : IDisposable
+    public sealed class PlcWriteService : IPlcWriter
     {
+       
         public static readonly PlcWriteService Instance = new PlcWriteService();
 
         private readonly BlockingCollection<PlcWriteCommand> _queue;

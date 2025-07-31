@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using XO_05.PageControls; // 確保這個命名空間包含你的 UserControl
 using System.Threading;
 using MELSECNETH_Lib;
+using XO_05.Infrastructure;
 
 
 
@@ -48,7 +49,7 @@ namespace XO_05
             dataWorker.DoWork += new DoWorkEventHandler(dataWorker_DoWork);
             dataWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(dataWorker_RunWorkerCompleted);
             dataWorker.WorkerSupportsCancellation = true;
-            PollingTimer.Interval = consta
+            PollingTimer.Interval = Constants.DefaultPollingIntervalMs;
             PollingTimer.Tick += new EventHandler(PollingTimer_Tick);
         }
 

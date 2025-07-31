@@ -129,7 +129,7 @@ namespace XO_05
 
                     }
                 }
-                Thread.Sleep(2000);
+                Thread.Sleep(Constants.DefaultReconnectDelayMs);
             }
         }
         #endregion
@@ -172,20 +172,22 @@ namespace XO_05
             {
                 _syncContext.Post(o =>
                 {
-                    //if (connectionstatuschanged != null)
-                    //{
-                    //    connectionstatuschanged(this, new connectionstatuseventargs(isconnected, message));
-                    //}
-
                     ConnectionStatusEventArgs args = new ConnectionStatusEventArgs(isConnected, message);
 
                     PlcConnectionManager.PLCConnection_NetH.PublishStatusChanged(this, args);
                 }, null);
-
-
             }
-        }    
-    
+        }
+
+        public event EventHandler ConnectionStatusChanged;
+        private void OnConnectedStatusChanged()
+        {
+            var h = ConnectionStatusChanged;
+            if (h != null)
+            {
+                h(this, EventArgs.Empty);
+            }
+        }
     
     }
 }

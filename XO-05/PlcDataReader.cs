@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MELSECNETH_Lib;
+using XO_05.Infrastructure;
 
 namespace XO_05
 {
@@ -84,10 +85,68 @@ namespace XO_05
     }
 
 
-    public class PlcDataReader_NetH
+    public class PlcDataReader_NetH : IPlcReader
     {
+        private readonly NetHConnection _conn;
+        public PlcDataReader_NetH(NetHConnection conn)
+        {
+            _conn = conn;
+        }
+
+        public short[] Read(List<PlcReadBlock> blocks)
+        {
+            if (!_conn.IsConnected) throw new InvalidOperationException("PLC not Connected");
+
+            //建立一個Array存放所有要問PLC的記憶體位置，
+            //格式為：區塊總數,第一個要問的位置區段的DeviceType,第一個要問的位置區段的startAddress,連續要問的數目,第二個要問的位置區段的.....
+            int[] devArray = new int[1 + blocks.Count * 3];
+            devArray[0] = blocks.Count;
+
+            int totalPoints = 0;
+
+            for (int i = 0; i < blocks.Count; i++)
+            {
+                var block = blocks[i];
+                devArray[1 + i * 3] = block.DeviceTypeInMDFUNC32;
+                devArray[2 + i * 3] = block.StartAddress;
+                devArray[3 + i * 3] = block.PointsToRead;
+
+                if (PlcMappingInfo.isBitType(block.DeviceType))
+                {
+                    totalPoints += 1;
+                }
+                else
+                {
+                    totalPoints += block.PointsToRead;
+                }
+            }
+
+            //準備一個足夠大的緩衝區
+            short[] dataBuffer = new short[totalPoints];
+            int bufferSizeInByte = totalPoints * 2; // 1 short = 2bytes
+
+            //執行隨機讀取命令
+            int result = MDFUNC32.mdRandREx(
+                PlcConnectionManager.NetHConnection._connectingPath,
+                PlcConnectionManager.NetHConnection.NetworkNo,
+                PlcConnectionManager.NetHConnection.StationNo,
+                ref devArray[0],
+                ref dataBuffer[0],
+                bufferSizeInByte
+
+                );
+
+            //讀取失敗拋回錯誤碼
+            if (result != 0)
+            {
+                throw new Exception("PL隨機讀取(CmdRandREx)失敗，錯誤碼：" + result);
+            }
 
 
+            return dataBuffer;
+
+
+        }
 
         /// <summary>
         /// 執行一次性批次隨機讀取
@@ -146,23 +205,6 @@ namespace XO_05
                 throw new Exception("PL隨機讀取(CmdRandREx)失敗，錯誤碼：" + result);
             }
 
-
-            ////讀取成功，將結果從array編成dictionary方便使用
-            //Dictionary<string, short[]> resultMap = new Dictionary<string,short[]>();
-            //int bufferIndex = 0;
-
-            ////將讀出來的buffer拆解成小塊
-            //foreach(var block in readBlocks)
-            //{
-            //    short[] blockData = new short[block.PointsToRead];
-            //    Array.Copy(dataBuffer, bufferIndex, blockData, 0, block.PointsToRead);
-
-            ////用裝置類型"+"起始位置"當KEY，上面拆出來的ARRAY[]當VALUE
-            //    string key = string.Format("{0}{1}", block.DeviceType, block.StartAddress);
-            //    resultMap.Add(key, blockData);
-
-            //    bufferIndex += block.PointsToRead;            
-            //}
 
             return dataBuffer;
         }
